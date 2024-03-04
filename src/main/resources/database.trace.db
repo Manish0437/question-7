@@ -1,0 +1,7 @@
+2024-03-04 06:39:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ARTIST" already exists; SQL statement:
+create table artist(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(255),
+    genre varchar(255)
+) [42101-214]
